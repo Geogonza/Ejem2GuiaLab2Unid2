@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -28,6 +28,10 @@ namespace Ejem2GuiaLab2Unid2
             {
                 txtTriangulo.Text = "Equilatero";
                 MessageBox.Show("El triángulo es equilatero");
+            }
+            else
+            {
+                MessageBox.Show("No se puede clasificar el triangulo");
             }
         }
 
