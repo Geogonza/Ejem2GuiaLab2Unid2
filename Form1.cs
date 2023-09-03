@@ -31,7 +31,7 @@ namespace Ejem2GuiaLab2Unid2
             }
             else
             {
-                MessageBox.Show("No se puede clasificar el triangulo");
+                MessageBox.Show("No se puede clasificar el triangulo","Error");
             }
         }
 
