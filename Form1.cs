@@ -27,7 +27,7 @@ namespace Ejem2GuiaLab2Unid2
             if (LadoA == LadoB && LadoA == LadoC)
             {
                 txtTriangulo.Text = "Equilatero";
-                MessageBox.Show("El triángulo es equilatero");
+                MessageBox.Show("El triángulo es equilatero y esta es una prueba");
             }
             else
             {
