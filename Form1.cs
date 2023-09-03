@@ -26,12 +26,12 @@ namespace Ejem2GuiaLab2Unid2
 
             if (LadoA == LadoB && LadoA == LadoC)
             {
-                txtTriangulo.Text = "Equilatero";
+                txtTriangulo.Text = "si es Equilatero";
                 MessageBox.Show("El triángulo es equilatero y esta es una prueba");
             }
             else
             {
-                MessageBox.Show("No se puede clasificar el triangulo","Error");
+                MessageBox.Show("No se puede clasificar el triangulo","Error no se puede procesar");
             }
         }
 
